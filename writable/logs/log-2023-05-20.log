@@ -1,0 +1,712 @@
+CRITICAL - 2023-05-20 02:32:07 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:39:43 --> Call to undefined function form_open()
+in APPPATH\Views\shopping\index.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 4 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:41:34 --> Call to undefined function form_open()
+in APPPATH\Views\shopping\index.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 4 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:41:51 --> Call to undefined function form_open()
+in APPPATH\Views\shopping\index.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 4 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:42:23 --> Call to undefined function form_open()
+in APPPATH\Views\shopping\index.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 4 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:51:20 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('H:\\')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('H:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('H:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:51:52 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('H:\\')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('H:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('H:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:52:33 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('H:\\')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('H:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('H:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:55:14 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('H:\\')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('H:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('H:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 02:55:42 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('H:\\')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('H:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('H:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:00:44 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:04:57 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:07:09 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:07:25 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:07:50 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:10:33 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:11:21 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:11:32 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:12:56 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:14:04 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:22:13 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:23:33 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:23:38 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:23:43 --> Unclosed '{' on line 12
+in APPPATH\Controllers\User.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:26:15 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:35:40 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:38:02 --> Call to undefined method App\Controllers\ProductController::respond()
+in APPPATH\Controllers\ProductController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:42:10 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Crud.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('crud/test')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('crud/test')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('crud/test')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:42:35 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Crud.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('crud/test')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('crud/test')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('crud/test')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:42:59 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Crud.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('crud/test')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('crud/test')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('crud/test')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:43:56 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Crud.php on line 27.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('crud/test')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('crud/test')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('crud/test')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:50:41 --> Unclosed '{' on line 9
+in APPPATH\Controllers\CartController.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CartController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CartController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CartController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\CartController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:50:46 --> Unclosed '{' on line 9
+in APPPATH\Controllers\CartController.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CartController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CartController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CartController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\CartController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:53:36 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:57:03 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 03:57:53 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:01:36 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:01:41 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:02:17 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:08:29 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:08:59 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:09:16 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:09:37 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:10:08 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:10:23 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:10:40 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 04:35:13 --> Invalid file: "ajay.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ajay.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ajay', [], true)
+ 3 APPPATH\modules\Admin\Controllers\Admin.php(20): view('ajay')
+ 4 SYSTEMPATH\CodeIgniter.php(934): Modules\Admin\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:13:11 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:13:25 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:13:34 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:14:36 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:15:37 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:15:48 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:16:10 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:24:36 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 05:24:54 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 06:59:02 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::postVar()
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:01:32 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$body
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:03:38 --> Undefined property: App\Controllers\ProductController::$uri
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 APPPATH\Controllers\ProductController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$uri', 'APPPATH\\Controllers\\ProductController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:04:26 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::uri()
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:04:40 --> Call to undefined method App\Controllers\ProductController::uri()
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:05:14 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:06:00 --> Undefined variable $request
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 APPPATH\Controllers\ProductController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\ProductController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:11:23 --> Call to undefined function form_open()
+in APPPATH\Views\shopping\index.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 4 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:11:27 --> Call to undefined function form_open()
+in APPPATH\Views\shopping\index.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 4 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:13:39 --> Undefined array key "id"
+in APPPATH\Views\shopping\index.php on line 5.
+ 1 APPPATH\Views\shopping\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\shopping\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:15:28 --> Undefined variable $price
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 APPPATH\Controllers\ProductController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'APPPATH\\Controllers\\ProductController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:15:53 --> Too few arguments to function App\Controllers\ProductController::ajay(), 0 passed in H:\xampp\htdocs\codeigniter04\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\ProductController.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:17:04 --> Undefined constant "App\Controllers\data"
+in APPPATH\Controllers\ProductController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->ajay()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:29:04 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:29:20 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:29:24 --> include(/shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:29:35 --> include(http:/localhost/shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(http:/localhost/shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:47:19 --> Undefined variable $title
+in APPPATH\Views\layouts\default.php on line 6.
+ 1 APPPATH\Views\layouts\default.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\default.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:47:22 --> Undefined variable $title
+in APPPATH\Views\layouts\default.php on line 6.
+ 1 APPPATH\Views\layouts\default.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\default.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:48:37 --> Undefined variable $title
+in APPPATH\Views\layouts\default.php on line 12.
+ 1 APPPATH\Views\layouts\default.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\default.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:48:43 --> Undefined variable $title
+in APPPATH\Views\layouts\default.php on line 12.
+ 1 APPPATH\Views\layouts\default.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\default.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:57:22 --> Undefined variable $title
+in APPPATH\Views\layouts\default.php on line 6.
+ 1 APPPATH\Views\layouts\default.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\default.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 07:57:39 --> Undefined variable $title
+in APPPATH\Views\layouts\default.php on line 6.
+ 1 APPPATH\Views\layouts\default.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\default.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:01:36 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\default.php on line 50.
+ 1 APPPATH\Views\layouts\default.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\layouts\\default.php', 50)
+ 2 APPPATH\Views\layouts\default.php(50): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 7 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:01:47 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\default.php on line 49.
+ 1 APPPATH\Views\layouts\default.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\layouts\\default.php', 49)
+ 2 APPPATH\Views\layouts\default.php(49): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 7 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:02:31 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:00 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:13 --> include(shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 90.
+ 1 APPPATH\Views\shopping\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 90)
+ 2 APPPATH\Views\shopping\index.php(90): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:03:53 --> include(/shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 89.
+ 1 APPPATH\Views\shopping\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 89)
+ 2 APPPATH\Views\shopping\index.php(89): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:04:03 --> include(/shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\shopping\index.php on line 44.
+ 1 APPPATH\Views\shopping\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\shopping\\index.php', 44)
+ 2 APPPATH\Views\shopping\index.php(44): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shopping\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('shopping/index', [], true)
+ 6 APPPATH\Controllers\ProductController.php(43): view('shopping/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:04:49 --> include(/shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\index.php on line 45.
+ 1 APPPATH\Views\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\index.php', 45)
+ 2 APPPATH\Views\index.php(45): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\User.php(51): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 08:04:55 --> include(/shopping/partials/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\index.php on line 45.
+ 1 APPPATH\Views\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/shopping/partials/footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\index.php', 45)
+ 2 APPPATH\Views\index.php(45): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\User.php(51): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
